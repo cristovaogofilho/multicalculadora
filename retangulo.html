@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+	
+		<title>MultiCalculadora</title>
+		
+		<link rel="stylesheet" href="estilo.css"/>
+		
+		<script src="script_calc.js"></script>
+		
+	</head>
+	
+	<body>
+	
+		<form action="" method="" target="" name="multiCalc">
+	
+			<fieldset>
+			
+				<legend>MultiCalculadora</legend>
+				
+				<div>
+					<input name="operacao" type="radio" onclick="location.href='imc.html'"/>IMC
+					<input name="operacao" type="radio" checked="checked"/>Retângulo
+					<input name="operacao" type="radio" onclick="location.href='circulo.html'"/>Círculo
+				</div>
+				
+				<div>
+					</p>
+					<label for="baseRetangulo">Base:</label>
+					<input id="baseRetangulo" name="baseRetangulo" class="alinhar" type="text" size="10"/>
+				</div>
+				
+				<div>
+					</p>
+					<label for="alturaRetangulo">Altura:</label>
+					<input id="alturaRetangulo" name="alturaRetangulo" class="alinhar" type="text" size="10"/>
+				</div>
+				
+				<div>
+					</p>
+					<button id="calcular" type="button" onclick="calcularRetangulo()">Calcular</button>
+				</div>
+				
+			</fieldset>
+		
+		</form>
+	
+	</body>
+	
+</html>
